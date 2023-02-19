@@ -56,11 +56,24 @@ function setValues(idField1,idField2,value1,value2) {
 }
 
 function  calculationArea(params) {
-   let calculateArea= document.getElementById('ol-list');
-    console.log(calculateArea);
+   let calculateArea= document.getElementById('ol-list').innerText;
+    let li = document.createElement('li');
+    
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById('btn-blog').addEventListener('click',function () {
-    console.log('clicked btn blog');
+    location.href = 'blogAnswer.html';
 })

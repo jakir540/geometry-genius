@@ -1,7 +1,12 @@
-.domQuestion{
+.Question{
     background: gainsboro;
     border: 1px solid saddlebrown;
     padding: 20px;
     border-radius: 10px;
     margin-top: 30px;
+}
+.Question p{
+    font-size: 18px;
+    color: rgb(29, 28, 28);
+    font-family: sans-serif;
 }
