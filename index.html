@@ -49,6 +49,8 @@
             Calculate
           </button>
         </div>
+
+
         <div
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
@@ -74,17 +76,19 @@
           </button>
         </div>
 
+
+
         <div
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/parallelogram.png" alt="" />
           <h1 class="text-3xl font-semibold p-2">Parallelogram</h1>
           <p class="text-gray-800 mb-3">
-            Area (A) =<span>b</span> &#215 <span>h</span>
+            Area (A) =<span id="parallelogram-b">b</span> &#215 <span id="parallelogram-h">h</span>
           </p>
-          <p>b = <span>10cm,</span> <span>h = 12cm</span></p>
+          <p>b = <span id="parallelogram-value1">10</span>cm, h =  <span id="parallelogram-value2">12</span>cm</p>
 
-          <button
+          <button id="btn-parallelogram"
             class="block text-center w-full mx-auto px-20 py-3 mt-5 bg-blue-500 rounded text-white font-semibold text-2xl"
           >
             Calculate
@@ -154,5 +158,9 @@
       </div>
     </section>
     <script src="JS/index.js"></script>
+    <script src="JS/triangle.js"></script>
+    <script src="JS/rectangle.js"></script>
+    <script src="JS/parallelogram.js"></script>
+
   </body>
 </html>
