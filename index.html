@@ -101,14 +101,14 @@
           <img class="mx-auto" src="images/rhombus.png" alt="" />
           <h1 class="text-3xl font-semibold p-2">Rhombus</h1>
           <p class="text-gray-800 mb-3">
-            Area (A) = 0.5 &#215 <span>d<sub>1</sub></span> &#215
-            <span> d<sub>2</sub> </span>
+            Area (A) = 0.5 &#215 <span id="rhombus-field1">d<sub>1</sub></span> &#215
+            <span id="rhombus-field2"> d<sub>2</sub> </span>
           </p>
 
           <p>
-            d<sub>1</sub> = <span>16cm</span> d<sub>2</sub> = <span>8cm</span>
+            d<sub>1</sub> = <span id="rhombus-value1">16</span>cm, d<sub>2</sub> = <span id="rhombus-value2">8</span>cm
           </p>
-          <button
+          <button id="btn-rhombus"
             class="block text-center w-full mx-auto px-20 py-3 mt-5 bg-blue-500 rounded text-white font-semibold text-2xl"
           >
             Calculate
@@ -121,11 +121,11 @@
           <img class="mx-auto" src="images/pentagon.png" alt="" />
           <h1 class="text-3xl font-semibold p-2">Pentagon</h1>
           <p class="text-gray-800 mb-3">
-            Area (A) = 0.5 &#215 <span>p</span> &#215 <span> b </span>
+            Area (A) = 0.5 &#215 <span id="pentagon-field1">p</span> &#215 <span id="pentagon-field2"> b </span>
           </p>
 
-          <p>p = <span>6cm</span>, b = <span>8cm</span></p>
-          <button
+          <p>p = <span id="pentagon-value1">6</span>cm, b = <span id="pentagon-value2">8</span>cm</p>
+          <button id="btn-pentagon"
             class="block text-center w-full mx-auto px-20 py-3 mt-5 bg-blue-500 rounded text-white font-semibold text-2xl"
           >
             Calculate
@@ -161,6 +161,8 @@
     <script src="JS/triangle.js"></script>
     <script src="JS/rectangle.js"></script>
     <script src="JS/parallelogram.js"></script>
+    <script src="JS/rhombus.js"></script>
+    <script src="JS/pentagon.js"></script>
 
   </body>
 </html>
