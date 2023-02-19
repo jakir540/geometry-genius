@@ -4,7 +4,9 @@ document.getElementById('btn-triangle').addEventListener('click',function () {
    let totalArea= calculation(parseFloat(inputValueB),parseFloat(inputValueH));
    console.log(parseFloat(totalArea));
   setValues('triangle-b','triangle-h',parseFloat(inputValueB),parseFloat(inputValueH));
-  
+
+
+  calculationArea();
  
  })
  

@@ -1,3 +1,8 @@
 section .card{
     height: 450px;
 }
+.order-list{
+    list-style: decimal;
+    background-color: #ff7171;
+    padding: 50px;
+}

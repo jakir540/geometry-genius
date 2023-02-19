@@ -22,10 +22,24 @@ function setValuesParagraphField(paralleValueB,paralleValueH,paragrapField1Id,pa
    
 }
 
+function setValuesParagraphEllipse(paralleValueB,paralleValueH,paragrapField1Id,paragrapField2Id) {
+    let pallelogramValueB= document.getElementById(paragrapField1Id);
+    let pallelogramValueH= document.getElementById(paragrapField2Id);
+    pallelogramValueB.innerText = " x "+paralleValueB + ' x ';
+    pallelogramValueH.innerText = paralleValueH;
+   
+   
+   
+}
+
 function calculation(value1,value2) {
     let Area = 0.5 * value1 * value2;
     return Area;
 
+}
+function calculationEllipseArea(value1,value2) {
+    let Area = 3.14 * value1 * value2;
+    return Area;
 }
 
 function RectangleParallelogram(value1,value2) {
@@ -41,5 +55,12 @@ function setValues(idField1,idField2,value1,value2) {
  
 }
 
+function  calculationArea(params) {
+   let calculateArea= document.getElementById('ol-list');
+    console.log(calculateArea);
+}
 
 
+document.getElementById('btn-blog').addEventListener('click',function () {
+    console.log('clicked btn blog');
+})

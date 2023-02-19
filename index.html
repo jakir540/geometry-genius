@@ -16,7 +16,7 @@
           <h3 class="text-2xl text-gray-700">Geometry Genius</h3>
         </div>
         <div class="button">
-          <button class="bg-blue-500 px-7 py-2 rounded text-white text-2xl">
+          <button id="btn-blog" class="bg-blue-500 px-7 py-2 rounded text-white text-2xl">
             Blog
           </button>
         </div>
@@ -136,12 +136,12 @@
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/ellipse.png" alt="" />
-          <h1 class="text-3xl font-semibold p-2">Pentagon</h1>
+          <h1 class="text-3xl font-semibold p-2">Ellipse</h1>
 
-          <p class="text-gray-800 mb-3">Area =<span> &pi;ab</span></p>
+          <p class="text-gray-800 mb-3">Area = &pi;<span id="ellipse-field1">a</span><span id="ellipse-field2">b</span></p>
 
-          <p>a = <span>6cm</span>, b = <span>8cm</span></p>
-          <button
+          <p>a = <span id="ellipse-value1">6</span>cm, b = <span id="ellipse-value2">8</span>cm</p>
+          <button id="btn-ellipse"
             class="block text-center w-full px-20 py-3 mt-5 bg-blue-500 rounded text-white font-semibold text-2xl"
           >
             Calculate
@@ -150,19 +150,32 @@
       </div>
 
       <div
-        class="calculation card bg-gray-100 border-2 w-1/4 mt-5 text-center rounded"
+        class="calculation card bg-gray-100 border-2 w-1/4 mt-5  rounded"
       >
-        <h3 class="p-5 underline underline-offset-4 text-2xl">
+        <h3 class="p-5 text-center underline underline-offset-4 text-2xl">
           Area Calculation
         </h3>
+      
+    <ol id="ol-list" class="order-list">
+      <li>Coffee  12cm2  <button class="bg-blue-500 px-3 py-2 rounded">convert</button></li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>  
+         
       </div>
     </section>
+ 
+      
+ 
+
+
     <script src="JS/index.js"></script>
     <script src="JS/triangle.js"></script>
     <script src="JS/rectangle.js"></script>
     <script src="JS/parallelogram.js"></script>
     <script src="JS/rhombus.js"></script>
     <script src="JS/pentagon.js"></script>
+    <script src="JS/ellipse.js"></script>
 
   </body>
 </html>
