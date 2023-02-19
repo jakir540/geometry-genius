@@ -55,20 +55,6 @@ function setValues(idField1,idField2,value1,value2) {
  
 }
 
-function  calculationArea(params) {
-   let calculateArea= document.getElementById('ol-list').innerText;
-    let li = document.createElement('li');
-    
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -77,3 +63,46 @@ function  calculationArea(params) {
 document.getElementById('btn-blog').addEventListener('click',function () {
     location.href = 'blogAnswer.html';
 })
+
+
+
+let count = 0;
+
+
+function displayData(nameOfP, resultP,count) {
+    const container = document.getElementById("table-container");
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td> ${count} ${nameOfP}</td>
+      <td>${resultP}cm <sup>2</sup></td>
+      
+      <td>
+      <button id="btn-convert">Conver to m<sup>2</sup></button>
+      </td>
+      
+    `;
+    container.appendChild(tr);
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+//  function setValuesArea(totalArea) {
+    
+//      let productName= document.getElementById('product-name').innerText;
+//      let names =document.getElementById('name');
+//      let totalValue = document.getElementById('totalValue');
+//      totalValue.innerText = totalArea;
+//      names.innerText = productName;
+ 
+     
+//  }

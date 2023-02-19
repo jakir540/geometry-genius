@@ -3,6 +3,13 @@ section .card{
 }
 .order-list{
     list-style: decimal;
-    background-color: #ff7171;
+   
     padding: 50px;
+}
+
+
+#table-container button{
+    background-color:  #1090D8;
+    padding: 8px;
+    border-radius: 10px;
 }

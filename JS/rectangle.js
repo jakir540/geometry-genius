@@ -4,5 +4,8 @@ document.getElementById('btn-rectangle').addEventListener('click',function () {
    let totalArea= RectangleParallelogram(parseFloat(inputValueB),parseFloat(inputValueH));
    console.log(parseFloat(totalArea));
    setValues("rectangle-w","rectangle-l",parseFloat(inputValueB),parseFloat(inputValueH));
- 
+
  })
+
+
+

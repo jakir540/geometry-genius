@@ -5,6 +5,9 @@ document.getElementById('btn-rhombus').addEventListener('click',function () {
 
 
     let AreaOfRhombus = calculation(parseFloat(rombhusValueD1),parseFloat(rombhusValueD2)) ;
-    console.log(AreaOfRhombus);   
+    console.log(AreaOfRhombus);  
+    
+    calculationArea();
+    setValuesArea(AreaOfRhombus,);
     
 })
