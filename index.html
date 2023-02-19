@@ -23,8 +23,9 @@
       </nav>
     </header>
 
-    <section class="flex p-2">
-      <div class="content p-5 grid grid-cols-3 gap-3 w-4/5">
+    <section class="lg:flex  p-2">
+      <div class="content p-5 grid lg:grid-cols-3 sm:grid-cols-1 gap-3 w-4/5">
+
         <div
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
@@ -51,11 +52,13 @@
         </div>
 
 
+
+
         <div
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/rectangle.png" alt="" />
-          <h1 id="rectangleHeading" class="text-3xl font-semibold p-2">Rectangle</h1>
+          <h1 id="rectangle" class="text-3xl font-semibold p-2">Rectangle</h1>
           <p class="text-gray-800 mb-3">
             Area (A) =<span id="rectangle-w">w </span> &#215<span id="rectangle-l"> l</span>
           </p>
@@ -82,7 +85,7 @@
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/parallelogram.png" alt="" />
-          <h1 class="text-3xl font-semibold p-2">Parallelogram</h1>
+          <h1 id="parallelogram" class="text-3xl font-semibold p-2">Parallelogram</h1>
           <p class="text-gray-800 mb-3">
             Area (A) =<span id="parallelogram-b">b</span> &#215 <span id="parallelogram-h">h</span>
           </p>
@@ -99,7 +102,7 @@
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/rhombus.png" alt="" />
-          <h1 class="text-3xl font-semibold p-2">Rhombus</h1>
+          <h1 id="rombhus" class="text-3xl font-semibold p-2">Rhombus</h1>
           <p class="text-gray-800 mb-3">
             Area (A) = 0.5 &#215 <span id="rhombus-field1">d<sub>1</sub></span> &#215
             <span id="rhombus-field2"> d<sub>2</sub> </span>
@@ -119,7 +122,7 @@
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/pentagon.png" alt="" />
-          <h1 class="text-3xl font-semibold p-2">Pentagon</h1>
+          <h1 id="pentagon" class="text-3xl font-semibold p-2">Pentagon</h1>
           <p class="text-gray-800 mb-3">
             Area (A) = 0.5 &#215 <span id="pentagon-field1">p</span> &#215 <span id="pentagon-field2"> b </span>
           </p>
@@ -136,7 +139,7 @@
           class="card w-full bg-gray-100 h-96 text-center p-5 border-2 rounded-lg"
         >
           <img class="mx-auto" src="images/ellipse.png" alt="" />
-          <h1 class="text-3xl font-semibold p-2">Ellipse</h1>
+          <h1 id="ellipse" class="text-3xl font-semibold p-2">Ellipse</h1>
 
           <p class="text-gray-800 mb-3">Area = &pi;<span id="ellipse-field1">a</span><span id="ellipse-field2">b</span></p>
 
@@ -149,8 +152,10 @@
         </div>
       </div>
 
+
+
       <div
-        class="calculation card bg-gray-100 border-2 w-1/4 mt-5  rounded"
+        class="calculation card bg-gray-100 border-2 lg:w-1/4 mt-5 rounded text-center "
       >
         <h3 id="total-product" class="p-5 text-center underline underline-offset-4 text-2xl">
           Area Calculation

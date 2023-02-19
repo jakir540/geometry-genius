@@ -34,17 +34,17 @@ function setValuesParagraphEllipse(paralleValueB,paralleValueH,paragrapField1Id,
 
 function calculation(value1,value2) {
     let Area = 0.5 * value1 * value2;
-    return Area;
+    return Area.toFixed(2);
 
 }
 function calculationEllipseArea(value1,value2) {
     let Area = 3.14 * value1 * value2;
-    return Area;
+    return Area.toFixed(2);
 }
 
 function RectangleParallelogram(value1,value2) {
     let Area = value1 * value2;
-    return Area
+    return Area.toFixed(2);
 }
 
 function setValues(idField1,idField2,value1,value2) {
@@ -54,12 +54,6 @@ function setValues(idField1,idField2,value1,value2) {
    triangleValueH.innerText = value2;
  
 }
-
-
-
-
-
-
 document.getElementById('btn-blog').addEventListener('click',function () {
     location.href = 'blogAnswer.html';
 })
@@ -74,7 +68,7 @@ function displayData(nameOfP, resultP,count) {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td> ${count} ${nameOfP}</td>
-      <td>${resultP}cm <sup>2</sup></td>
+      <td>${resultP}cm<sup>2</sup></td>
       
       <td>
       <button id="btn-convert">Conver to m<sup>2</sup></button>
@@ -95,14 +89,3 @@ function displayData(nameOfP, resultP,count) {
 
 
 
-
-//  function setValuesArea(totalArea) {
-    
-//      let productName= document.getElementById('product-name').innerText;
-//      let names =document.getElementById('name');
-//      let totalValue = document.getElementById('totalValue');
-//      totalValue.innerText = totalArea;
-//      names.innerText = productName;
- 
-     
-//  }

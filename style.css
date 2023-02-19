@@ -1,15 +1,16 @@
 section .card{
     height: 450px;
 }
-.order-list{
-    list-style: decimal;
-   
-    padding: 50px;
-}
-
 
 #table-container button{
     background-color:  #1090D8;
     padding: 8px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+
+
 }
